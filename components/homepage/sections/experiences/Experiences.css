@@ -23,9 +23,10 @@
 
 @media bp-xlarge-up {
   .title {
-    lost-column: 3/12;
-    lost-move: 9/12;
+    lost-column: 4/12;
+    lost-move: 8/12;
     top: -200px;
+    text-align: right;
   }
 }
 
@@ -37,7 +38,7 @@
 
 @media bp-xlarge-up {
   .experiences {
-    lost-column: 9/12;
-    lost-move: -3/12;
+    lost-column: 8/12;
+    lost-move: -4/12;
   }
 }

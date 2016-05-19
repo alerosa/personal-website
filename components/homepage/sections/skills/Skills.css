@@ -23,8 +23,9 @@
 
 @media bp-xlarge-up {
   .title {
-    lost-column: 3/12;
+    lost-column: 4/12;
     top: -200px;
+    text-align: left;
   }
 }
 
@@ -42,7 +43,7 @@
 
 @media bp-xlarge-up {
   .lists {
-    lost-column: 9/12;
+    lost-column: 8/12;
     padding-bottom: 30px;
   }
 }
