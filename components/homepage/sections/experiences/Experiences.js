@@ -10,7 +10,7 @@ import s from './Experiences.css';
 
 const Experiences = ({careers, educations}) => {
   return (
-    <Section bgColor={colors.exps} txtColor={colors.greyText}>
+    <Section bgColor={colors.lightBg} txtColor={colors.greyText}>
       <div className={s.title}>
         <TitleBall title="Experiences"/>
       </div>

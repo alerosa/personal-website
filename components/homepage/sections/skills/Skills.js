@@ -17,7 +17,7 @@ const Skills = ({skills}) => {
   };
 
   return (
-    <Section bgColor={colors.skills} txtColor={colors.lightText}>
+    <Section bgColor={colors.greyBg} txtColor={colors.greyText}>
       <div className={s.title}>
         <TitleBall title="Skills"/>
       </div>

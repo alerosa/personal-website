@@ -1,3 +1,5 @@
+@value skills from "../../../common-styles/colors.css";
+
 .root {
   display: flex;
   justify-content: space-between;
@@ -17,7 +19,7 @@
   display: inline-block;
   height: 13px;
   width: 13px;
-  border: 2px solid #fff;
+  border: 2px solid skills;
   border-radius: 100%;
 }
 
@@ -41,5 +43,5 @@
   height: 9px;
   width: 9px;
   border-radius: 100%;
-  background-color: #fff;
+  background-color: skills;
 }

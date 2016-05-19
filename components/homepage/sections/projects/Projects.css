@@ -1,5 +1,5 @@
 @value large-up as bp-large-up, medium as bp-medium from "../../../common-styles/breakpoints.css";
-@value projectsTitle from "../../../common-styles/colors.css";
+@value projectsTitle, lightText from "../../../common-styles/colors.css";
 
 .root {
   lost-utility: clearfix;
@@ -8,7 +8,7 @@
 /* Title */
 .title {
   position: relative;
-  color: #fff;
+  color: projectsTitle;
   text-align: center;
   margin-bottom: 90px;
   line-height: 1.2;
@@ -17,10 +17,9 @@
 @media bp-large-up {
   .title {
     margin-top: -200px;
+    color: lightText;
   }
-}
 
-@media bp-large-up {
   .title > * {
     background-color: projectsTitle;
   }

@@ -1,10 +1,10 @@
 @value large as bp-large, large-up as bp-large-up, xlarge-up as bp-xlarge-up from "../../../common-styles/breakpoints.css";
-@value skillsTitle from "../../../common-styles/colors.css";
+@value skillsTitle, lightText from "../../../common-styles/colors.css";
 
 /* Title */
 .title {
   position: relative;
-  color: #fff;
+  color: skillsTitle;
   text-align: center;
   margin-bottom: 90px;
 }
@@ -12,6 +12,12 @@
 @media bp-large {
   .title {
     margin-top: -200px;
+  }
+}
+
+@media bp-large-up {
+  .title {
+    color: lightText;
   }
 }
 
@@ -31,6 +37,7 @@
 .lists {
   lost-utility: clearfix;
   padding-bottom: 120px;
+  font-size: 16px;
 }
 
 @media bp-xlarge-up {

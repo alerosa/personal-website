@@ -1,5 +1,5 @@
 @value medium-up as bp-medium-up from "../../../common-styles/breakpoints.css";
-@value skills from "../../../common-styles/colors.css";
+@value exps from "../../../common-styles/colors.css";
 
 .root {
   lost-utility: clearfix;
@@ -30,7 +30,7 @@
 .subtitle a,
 .subtitle a:hover,
 .subtitle a:visited {
-  color: skills;
+  color: exps;
 }
 
 .period {

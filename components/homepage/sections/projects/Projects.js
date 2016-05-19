@@ -7,7 +7,7 @@ import s from  './Projects.css';
 
 const Projects = ({projects}) => {
   return (
-    <Section bgColor={colors.projects} txtColor={colors.lightText}>
+    <Section bgColor={colors.greyBg} txtColor={colors.greyText}>
       <div className={s.title}>
         <TitleBall title="Projects"/>
       </div>
