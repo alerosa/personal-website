@@ -1,9 +1,9 @@
-@value exps from "../../../common-styles/colors.css";
+@value projects from "../../../common-styles/colors.css";
 
 .root a,
 .root a:hover,
 .root a:visited {
-  color: #f4d434;
+  color: projects;
   text-decoration: none;
 }
 

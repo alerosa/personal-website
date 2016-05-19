@@ -4,19 +4,22 @@
 @value lightGreen #6aaeaf;
 @value cream #eadd9e;
 @value lightCream #ece0a7;
+@value yellow #f6ce55;
 @value blue #5081af;
 @value lightBlue #5B89B3;
 @value white #fff;
 
 @value skills red;
-@value skillsTitle lightRed;
-@value exps cream;
-@value expsTitle lightCream;
+@value skillsTitle red;
+@value exps yellow;
+@value expsTitle yellow;
 @value projects green;
-@value projectsTitle lightGreen;
+@value projectsTitle green;
 @value contacts blue;
-@value contactsTitle lightBlue;
+@value contactsTitle blue;
 
 @value lightText white;
 @value darkText #1d1d1d;
 @value greyText #565656;
+@value lightBg white;
+@value greyBg #efefef;

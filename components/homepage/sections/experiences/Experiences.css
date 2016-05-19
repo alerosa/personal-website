@@ -1,9 +1,9 @@
 @value large as bp-large, large-up as bp-large-up, xlarge-up as bp-xlarge-up from "../../../common-styles/breakpoints.css";
-@value expsTitle, greyText from "../../../common-styles/colors.css";
+@value expsTitle, lightText from "../../../common-styles/colors.css";
 
 .title {
   position: relative;
-  color: greyText;
+  color: expsTitle;
   text-align: center;
   margin-bottom: 90px;
 }
@@ -11,14 +11,22 @@
 @media bp-large {
   .title {
     margin-top: -200px;
+    color: lightText;
+  }
+}
+
+@media bp-large-up {
+  .title {
+    color: lightText;
   }
 }
 
 @media bp-xlarge-up {
   .title {
-    lost-column: 3/12;
-    lost-move: 9/12;
+    lost-column: 4/12;
+    lost-move: 8/12;
     top: -200px;
+    text-align: right;
   }
 }
 
@@ -30,7 +38,7 @@
 
 @media bp-xlarge-up {
   .experiences {
-    lost-column: 9/12;
-    lost-move: -3/12;
+    lost-column: 8/12;
+    lost-move: -4/12;
   }
 }
