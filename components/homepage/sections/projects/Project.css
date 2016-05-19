@@ -1,0 +1,30 @@
+@value exps from "../../../common-styles/colors.css";
+
+.root a,
+.root a:hover,
+.root a:visited {
+  color: #f4d434;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.2;
+  padding-bottom: 6px;
+}
+
+.client {
+  font-weight: 300;
+  display: inline-block;
+}
+
+.role {
+  font-style: italic;
+  margin-bottom: 18px;
+  font-size: 18px;
+}
+
+.desc {
+  font-weight: 300;
+}

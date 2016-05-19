@@ -1,0 +1,205 @@
+@value breakpoints from "../../../common-styles/breakpoints.css";
+@value medium as bp-medium from "../../../common-styles/breakpoints.css";
+@value medium-up as bp-medium-up from "../../../common-styles/breakpoints.css";
+@value large as bp-large from "../../../common-styles/breakpoints.css";
+@value large-up as bp-large-up from "../../../common-styles/breakpoints.css";
+@value xlarge-up as bp-xlarge-up from "../../../common-styles/breakpoints.css";
+@value red, green, white from "../../../common-styles/colors.css";
+
+.root {
+  text-align: center;
+}
+
+@media bp-large-up {
+  .root {
+    lost-column: 6/12;
+    text-align: left;
+  }
+}
+
+.titles {
+  display: block;
+  margin-bottom: 60px;
+}
+
+@media bp-medium-up {
+  .titles {
+    display: inline-block;
+    margin-bottom: 100px;
+  }
+}
+
+.title {
+  font-weight: 200;
+  font-size: 50px;
+  color: red;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+@media bp-medium-up {
+  .title {
+    font-size: 70px;
+    text-align: left;
+    margin-bottom: 0;
+  }
+}
+
+@media bp-large-up {
+  .title {
+    /*font-size: 102px;*/
+    font-size: responsive 54px 102px;
+    font-range: 1025px 1660px;
+  }
+}
+
+.subtitle {
+  font-weight: bold;
+  color: #303030;
+  font-size: 22px;
+  text-align: center;
+}
+
+@media bp-medium-up {
+  .subtitle {
+    font-size: 30px;
+    text-align: right;
+  }
+}
+
+@media bp-large-up {
+  .subtitle {
+    font-size: 36px;
+  }
+}
+
+.text {
+  font-size: 22px;
+  color: #4f4f4f;
+  line-height: 1.4;
+}
+
+.text p {
+  margin-bottom: 24px;
+}
+
+.image {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 46px;
+}
+
+.image:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 100%;
+  box-shadow: inset 0 0 60px 10px rgba(0, 0, 0, 0.4);
+}
+
+.image img {
+  lost-center: 260px;
+}
+
+@media bp-large-up {
+  .image {
+    position: absolute;
+    top: -60px;
+    right: -345px;
+    height: 820px;
+    width: 820px;
+    border-radius: 50%;
+  }
+
+  .image img {
+    position: relative;
+    lost-center: 820px;
+    height: 820px;
+    width: 820px;
+    right: 270px;
+  }
+}
+
+@media bp-xlarge-up {
+  .image {
+    position: absolute;
+    top: -60px;
+    right: -345px;
+    height: 1000px;
+    width: 1000px;
+    border-radius: 50%;
+  }
+
+  .image img {
+    position: relative;
+    lost-center: 1000px;
+    height: 1000px;
+    width: 1000px;
+    right: 270px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .image img {
+    right: 170px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .image img {
+    right: 120px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .image img {
+    right: 70;
+  }
+}
+
+@media (min-width: 2100px) {
+  .image img {
+    right: 0;
+  }
+}
+
+.ctas {
+  composes: text;
+  display: inline-block;
+  margin-top: 100px;
+  margin-bottom: 140px !important;
+}
+
+.anchorButton {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: green;
+  color: white;
+}
+
+.pdf {
+  display: block;
+  text-align: center;
+  padding-top: 15px;
+}
+
+@media bp-xlarge-up {
+  .pdf {
+    display: inline;
+    padding-left: 15px;
+    padding-top: 0;
+  }
+}
+
+.pdf a,
+.pdf a:hover,
+.pdf a:visited {
+  color: green;
+}

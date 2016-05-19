@@ -1,0 +1,25 @@
+@value medium-up as bp-medium-up from "../common-styles/breakpoints.css";
+
+.list {
+  lost-utility: clearfix;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+
+.entry a,
+.entry a:hover,
+.entry a:visited{
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media bp-medium-up {
+  .entry{
+    lost-column: 6/12;
+  }
+
+  .entry + .entry {
+    text-align: right;
+  }
+}

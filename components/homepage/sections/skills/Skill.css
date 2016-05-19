@@ -1,0 +1,45 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.dots {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-shrink: 0;
+  width: 105px;
+}
+
+.dot {
+  position: relative;
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+}
+
+.emptydot {
+  composes: dot;
+}
+
+.fulldot {
+  composes: dot;
+}
+
+.fulldot:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+  height: 9px;
+  width: 9px;
+  border-radius: 100%;
+  background-color: #fff;
+}

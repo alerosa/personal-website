@@ -1,0 +1,62 @@
+@value medium-up as bp-medium-up from "../../../common-styles/breakpoints.css";
+@value skills from "../../../common-styles/colors.css";
+
+.root {
+  lost-utility: clearfix;
+}
+
+.titles {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+@media bp-medium-up {
+  .titles {
+    lost-column: 4/9 0;
+    margin-bottom: 0;
+  }
+}
+
+.title {
+  color: #1d1d1d;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #565656;
+  font-weight: 300;
+}
+
+.subtitle a,
+.subtitle a:hover,
+.subtitle a:visited {
+  color: skills;
+}
+
+.period {
+  font-size: 16px;
+  font-style: oblique;
+  font-weight: 300;
+}
+
+@media bp-medium-up {
+  .period {
+    font-size: 18px;
+  }
+}
+
+.desc {
+  font-weight: 300;
+}
+
+.desc a,
+.desc a:hover,
+.desc a:visited{
+  color: skills;
+}
+
+@media bp-medium-up {
+  .desc {
+    lost-column: 5/9 0;
+  }
+}

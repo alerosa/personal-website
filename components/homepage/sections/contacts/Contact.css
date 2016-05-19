@@ -1,0 +1,40 @@
+.contact {
+  display: inline-block;
+  line-height: inherit;
+  color: #fff;
+  text-decoration: none;
+  padding-left: 64px;
+  background-size: 44px 100%;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.email {
+  composes: contact;
+  background-image: svg-load(icons/e-mail.svg, fill: #fff, stroke: transparent);
+}
+
+.twitter {
+  composes: contact;
+  background-image: svg-load(icons/twitter.svg, fill: #fff, stroke: transparent);
+}
+
+.linkedin {
+  composes: contact;
+  background-image: svg-load(icons/linkedin.svg, fill: #fff, stroke: transparent);
+}
+
+.pinterest {
+  composes: contact;
+  background-image: svg-load(icons/pinterest.svg, fill: #fff, stroke: transparent);
+}
+
+.github {
+  composes: contact;
+  background-image: svg-load(icons/github.svg, fill: #fff, stroke: transparent);
+}
+
+.stackoverflow {
+  composes: contact;
+  background-image: svg-load(icons/stack-overflow.svg, fill: #fff, stroke: transparent);
+}

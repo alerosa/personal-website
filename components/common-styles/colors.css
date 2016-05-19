@@ -1,0 +1,22 @@
+@value red #dd5f70;
+@value lightRed #df6877;
+@value green #60a8a9;
+@value lightGreen #6aaeaf;
+@value cream #eadd9e;
+@value lightCream #ece0a7;
+@value blue #5081af;
+@value lightBlue #5B89B3;
+@value white #fff;
+
+@value skills red;
+@value skillsTitle lightRed;
+@value exps cream;
+@value expsTitle lightCream;
+@value projects green;
+@value projectsTitle lightGreen;
+@value contacts blue;
+@value contactsTitle lightBlue;
+
+@value lightText white;
+@value darkText #1d1d1d;
+@value greyText #565656;

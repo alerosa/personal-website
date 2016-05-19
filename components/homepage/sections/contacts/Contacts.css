@@ -1,0 +1,54 @@
+@value medium-up as bp-medium-up, large as bp-large, large-up as bp-large-up, xlarge-up as bp-xlarge-up from "../../../common-styles/breakpoints.css";
+@value contactsTitle from "../../../common-styles/colors.css";
+
+/* Title */
+.title {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+@media bp-large-up {
+  .title {
+    margin-top: -200px;
+  }
+}
+
+@media bp-xlarge-up {
+  .title {
+    lost-column: 3/12;
+    margin-bottom: 0;
+  }
+}
+
+@media bp-large-up {
+  .title > * {
+    background-color: contactsTitle;
+  }
+}
+
+.list {
+  line-height: 4.6em;
+}
+
+@media bp-medium-up {
+  .list {
+    columns: 2;
+    column-gap: 30px;
+  }
+}
+
+@media bp-large {
+  .list {
+    lost-column: 8/12;
+    lost-offset: -2/12;
+  }
+}
+
+@media bp-xlarge-up {
+  .list {
+    lost-column: 6/12;
+    lost-offset: -1/12;
+  }
+}

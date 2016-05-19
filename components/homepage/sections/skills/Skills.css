@@ -1,0 +1,59 @@
+@value large as bp-large, large-up as bp-large-up, xlarge-up as bp-xlarge-up from "../../../common-styles/breakpoints.css";
+@value skillsTitle from "../../../common-styles/colors.css";
+
+/* Title */
+.title {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+@media bp-large {
+  .title {
+    margin-top: -200px;
+  }
+}
+
+@media bp-xlarge-up {
+  .title {
+    lost-column: 3/12;
+    top: -200px;
+  }
+}
+
+@media bp-large-up {
+  .title > * {
+    background-color: skillsTitle;
+  }
+}
+
+.lists {
+  lost-utility: clearfix;
+  padding-bottom: 120px;
+}
+
+@media bp-xlarge-up {
+  .lists {
+    lost-column: 9/12;
+    padding-bottom: 30px;
+  }
+}
+
+/* List */
+@media bp-large-up {
+  .list {
+    lost-column: 1/3 3 30px;
+  }
+}
+
+@media bp-xlarge-up {
+  .list {
+    lost-column: 1/3 3 90px;
+  }
+}
+
+/* Skill container*/
+.skill {
+  height: 40px;
+}

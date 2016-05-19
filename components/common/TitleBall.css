@@ -1,0 +1,44 @@
+@value large-up as bp-large-up, xlarge-up as bp-xlarge-up from "../common-styles/breakpoints.css";
+
+@media bp-large-up {
+  .root {
+    lost-align: center;
+    display: inline-block;
+    text-align: center;
+    background-color: inherit;
+    color: inherit;
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+    box-shadow: 0 14px 33px 3px rgba(0, 0, 0, 0.22);
+  }
+}
+
+.container {
+  text-align: center;
+  padding: 15px;
+}
+
+@media bp-large-up {
+  .container {
+    width: 100%;
+  }
+}
+
+.title {
+  font-size: 44px;
+  font-weight: bold;
+  /*padding-bottom: 14px;*/
+}
+
+@media bp-large-up {
+  .title {
+    font-size: 48px;
+  }
+}
+
+.subtitle {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.15;
+}

@@ -1,0 +1,53 @@
+@value large-up as bp-large-up, medium as bp-medium from "../../../common-styles/breakpoints.css";
+@value projectsTitle from "../../../common-styles/colors.css";
+
+.root {
+  lost-utility: clearfix;
+}
+
+/* Title */
+.title {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 90px;
+  line-height: 1.2;
+}
+
+@media bp-large-up {
+  .title {
+    margin-top: -200px;
+  }
+}
+
+@media bp-large-up {
+  .title > * {
+    background-color: projectsTitle;
+  }
+}
+
+/* Project */
+.entry {
+  padding-bottom: 100px;
+  line-height: 1.4;
+}
+
+@media bp-medium {
+  .entry {
+    lost-column: 1/2 2 60px;
+  }
+
+  .entry:nth-child(2n) {
+    float: left;
+  }
+}
+
+@media bp-large-up {
+  .entry {
+    lost-column: 1/3 3 60px;
+  }
+
+  .entry:nth-child(2n) {
+    float: left;
+  }
+}

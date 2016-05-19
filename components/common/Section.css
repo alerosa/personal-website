@@ -1,0 +1,28 @@
+@value medium-up as bp-medium-up, large-up as bp-large-up from "../common-styles/breakpoints.css";
+
+.root {
+  position: relative;
+}
+
+.container {
+  position: relative;
+  lost-center: 1572px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media bp-medium-up {
+  .container {
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media bp-large-up {
+  .container {
+    padding-bottom: 130px;
+  }
+}

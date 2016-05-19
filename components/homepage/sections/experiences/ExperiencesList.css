@@ -1,0 +1,42 @@
+@value medium-up as bp-medium-up from "../../../common-styles/breakpoints.css";
+
+.root {
+  margin-bottom: 80px;
+}
+
+.title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 300;
+  color: #1d1d1d;
+  padding-bottom: 60px;
+  padding-top: 80px;
+  background-size: 70px 62px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.laptop {
+  composes: title;
+  background-image: svg-load(icons/laptop.svg, fill: #1d1d1d, stroke: transparent);
+}
+
+.hat {
+  composes: title;
+  background-image: svg-load(icons/hat.svg, fill: #1d1d1d, stroke: transparent);
+}
+
+.entry {
+  margin-bottom: 60px;
+  line-height: 1.4;
+}
+
+@media bp-medium-up {
+  .title {
+    font-size: 54px;
+    text-align: left;
+    padding-left: 90px;
+    padding-top: 0;
+    background-position: left top;
+  }
+}
