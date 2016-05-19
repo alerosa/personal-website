@@ -111,7 +111,7 @@
 @media bp-large-up {
   .image {
     position: absolute;
-    top: -60px;
+    top: 60px;
     right: -345px;
     height: 820px;
     width: 820px;
@@ -130,7 +130,6 @@
 @media bp-xlarge-up {
   .image {
     position: absolute;
-    top: -60px;
     right: -345px;
     height: 1000px;
     width: 1000px;
