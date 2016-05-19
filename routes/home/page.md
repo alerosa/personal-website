@@ -1,5 +1,5 @@
 ---
-title: React Static Boilerplate
+title: Alessandro Rosa - Frontend Developer - Online Resume
 ---
 Hello! I'm Alessandro, an Italian frontend developer.
 
