@@ -3,7 +3,7 @@ projects:
   - title: React Component
     client: Open Source
     role: Frontend development
-    desc: <p>React version of the famous Pomodoro Timer, it's using <a href="http://www.material-ui.com" target="_blank" rel="no-follow">material-ui</a> behind the scene.</p><p>The project is currently under development, <a href="#" target="blank" rel="no-follow">here's the link to the repository</a>.</p>
+    desc: <p>React version of the famous Pomodoro Timer, it's using <a href="http://www.material-ui.com" target="_blank" rel="no-follow">material-ui</a> behind the scene.</p><p>The project is currently under development, <a href="https://github.com/alerosa/react-pomodoro-timer" target="blank" rel="no-follow">here's the link to the repository</a>.</p>
   - title: Custom CMS
     client: <a href="http://www.workup.it" rel="no-follow" target="_blank">Workup</a>
     role: UI-UX design / Frontend development
@@ -39,5 +39,5 @@ projects:
   - title: Booking Website
     client: Y-40
     role: UI-UX Design
-    desc: <p>A multi-hotel booking website, similar to booking.com but with a specific target and area. A lot of booking configurations required a lot of research for optimizing the UX side of the project. From a code point of view, it is a complete single page application made with AngularJS and Angular Routing.</p>
+    desc: <p>A multi-hotel booking website, similar to booking.com but with a specific target and area. A lot of booking configurations required a lot of research for optimizing the UX side of the project.</p><p>From a code point of view, it is a complete single page application made with AngularJS and Angular Routing.</p>
 ---

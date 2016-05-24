@@ -3,7 +3,7 @@ careers:
   - role: Full-stack Developer
     company: Freelance
     period: March 2016 - Present
-    desc: <p>I'm currently Working on some freelance and open source projects using the latest JS technologies such as ES6, Node, Express, React and its ecosystem, Angular 2, CSS Modules. I'm also studying TDD and functional programming to improve my skill and knowledge and becoming a better developer.</p>
+    desc: <p>I'm currently Working on some freelance and open source projects using the latest JS technologies such as ES6, Node, Express, React and its ecosystem, Angular 2, CSS Modules.</p><p>I'm also studying TDD and functional programming to improve my skill and knowledge and becoming a better developer.</p>
   - role: Frontend Developer
     company: <a href="http://www.workup.it" rel="no-follow" target="_blank">Workup Srl</a>
     period: September 2014 - March 2016
@@ -11,7 +11,7 @@ careers:
   - role: Web Designer
     company: <a href="http://www.workup.it" rel="no-follow" target="_blank">Workup Srl</a>
     period: August 2013 - September 2014
-    desc: <p>During this period I've made a lot of wireframes, prototypes, designs and code for responsive websites and web applications by working with companies like Porsche, Veneta Cucine, Controls Group, System Group, Airlux, Douglas Perfumeries.</p><p>I’ve used Photoshop, Illustrator, Wordpress, HTML5, CSS3, SASS, jQuery, Bootstrap and Foundation on daily basis.</p>
+    desc: <p>Web Designer at Workup, During this period I've made a lot of wireframes, prototypes, designs and code for responsive websites and web applications by working with companies like Porsche, Veneta Cucine, Controls Group, System Group, Airlux, Douglas Perfumeries.</p><p>I’ve used Photoshop, Illustrator, Wordpress, HTML5, CSS3, SASS, jQuery, Bootstrap and Foundation on daily basis.</p>
   - role: Web Designer
     company: <a href="http://www.energia-europa.it" rel="no-follow" target="_blank">Energia Europa</a>
     period: March 2013 - July 2013
