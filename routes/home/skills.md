@@ -1,17 +1,18 @@
 ---
 skills:
   Javascript: 5
-  jQuery: 5
-  React: 3
+  React: 4
+  Redux: 4
   AngularJS: 3
   Node: 3
   Grunt: 4
   Gulp: 3
   Webpack: 2
   Yeoman: 3
-  Express: 3
-  MongoDB: 2
-  Flux / Redux: 2
+  Express: 4
+  MongoDB: 3
+  RESTful API: 3
+  jQuery: 5
   HTML5: 5
   CSS3: 5
   Bootstrap: 5
@@ -29,7 +30,7 @@ skills:
   Command Line: 3
   Vagrant: 3
   Docker: 2
-  PHP: 3
+  PHP: 2
   Python: 1
   MySQL: 1
   Agile: 3
