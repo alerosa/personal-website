@@ -49,4 +49,8 @@
   .entry:nth-child(2n) {
     float: left;
   }
+
+  .entry:last-child {
+    lost-move: 1/3;
+  }
 }
