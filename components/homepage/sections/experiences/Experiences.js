@@ -12,15 +12,12 @@ const Experiences = ({careers, educations}) => {
   return (
     <Section bgColor={colors.lightBg} txtColor={colors.greyText}>
       <div className={s.title}>
-        <TitleBall title="Experiences"/>
+        <TitleBall title="Professional Experiences"/>
       </div>
       <div className={s.experiences}>
         <ExperiencesList>
           {careers.map( (c, i) => <Career key={i} role={c.role} company={c.company} period={c.period} desc={c.desc}/>)}
         </ExperiencesList>
-        {/*<ExperiencesList title="Educations" icon="hat">
-          {educations.map( (e, i) => <Education key={i} institute={e.institute} type={e.type} period={e.period} desc={e.desc}/>)}
-        </ExperiencesList>*/}
       </div>
     </Section>
   );
